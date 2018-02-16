@@ -18,16 +18,16 @@ class stack
 	approach: Class defines data member and member function of the stack class
 	*/
 {
-	T *arr;					         // for dynamic array
+	T *arr;			         // for dynamic array
 	int top;                         // top of stack
-	int capacity;					 // checks size defined by user
+	int capacity;			 // checks size defined by user
 public:
-	stack(int size = MAXSIZE);	     // constructor to create array dynamically
-	~stack();					     // destructor to delete dynamically created array
+	stack(int size = MAXSIZE);	 // constructor to create array dynamically
+	~stack();			 // destructor to delete dynamically created array
 	void push(T);                    // pushes data in stack
 	T pop();                         // pops data from stack
 	T peek();                        // shows top element of stack
-	int size();					     // Current size of stack
+	int size();			 // Current size of stack
 	bool isEmpty();                  // checks if stack is empty
 	bool isFull();                   // checks if stack is full
 	T input();                       // inputs data from user
@@ -203,12 +203,4 @@ int main()
 
   return 0;
 }
-
-
-
-
-
-
-
-
 
