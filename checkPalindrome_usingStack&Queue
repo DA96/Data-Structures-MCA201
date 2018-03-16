@@ -13,6 +13,7 @@ bool isPalindrome(string str)
     stack<char> s;
     queue<char> q;
 
+    //Pushing string, character by character in stack and queue
     for(int i=0; i<str.length(); i++)
     {
         s.push(str[i]);
@@ -22,6 +23,7 @@ bool isPalindrome(string str)
     int flag;
     int str_halfLen = str.length()/2;
 
+    //Matching stack and queue elements till half the length of string
     while(str_halfLen != 0)
     {
         if(s.top() == q.front())
