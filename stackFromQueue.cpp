@@ -1,3 +1,4 @@
+// Program to implement stack using queues
 
 #include <iostream>
 #include <cstdlib>
